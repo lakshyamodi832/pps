@@ -3,6 +3,7 @@
 int main(){
 
     double side, len, width, rad;
+    double PIE = 22/7;
 
     printf("Enter the side of the square: ");
     scanf("%lf", &side);
@@ -19,8 +20,8 @@ int main(){
     printf("Enter the radius of the square: ");
     scanf("%lf", &rad);
 
-    printf("Area of the circle: %lf\n", 3.14*rad*rad);
-    printf("Circumference of the circle: %lf\n", 2*3.14*rad);
+    printf("Area of the circle: %lf\n", PIE*rad*rad);
+    printf("Circumference of the circle: %lf\n", 2*PIE*rad);
     
     return 0;
 }
